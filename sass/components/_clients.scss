@@ -1,0 +1,25 @@
+.client__list li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+  &:focus {
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer;
+  }
+  &:hover {
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    cursor: pointer;
+  }
+}
+.client__list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 94px;
+}

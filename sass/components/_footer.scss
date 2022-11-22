@@ -1,0 +1,60 @@
+.footer__list {
+  display: inline-block;
+}
+.footer__contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--main-color);
+  opacity: 60%;
+  &:hover {
+    color: var(--blue-color);
+  }
+}
+.footer__list li:first-child {
+  margin-bottom: 9px;
+}
+.footer__list li:last-child {
+  margin-bottom: 60px;
+}
+.footer__address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--main-color);
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer__input {
+  margin-top: 18px;
+  padding: 16px 15px;
+  display: flex;
+  width: 328px;
+  height: 18px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--main-color);
+  outline: 0;
+}
+.footer__form {
+  margin-left: 78px;
+}
+.footer__label {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  height: fit-content;
+}
+.footer__icon-send {
+  fill: var(--main-color);
+  position: relative;
+  bottom: 35px;
+  left: 524px;
+}

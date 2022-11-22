@@ -14,13 +14,13 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <div class="container container--underline">
-        <a class="container__logo" href="index.html"
+        <a class="header__logo" href="index.html"
           ><span class="logo--blue">Web</span>Studio</a
         >
         <nav>
@@ -57,11 +57,11 @@
     <main>
       <section class="seciton">
         <div class="container">
-          <h1 class="container__main-header">
+          <h1 class="main__header">
             EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
           </h1>
           <input
-            class="container__button"
+            class="section__button"
             type="button"
             value="Zamów usługe"
             data-modal-open
@@ -135,51 +135,51 @@
       </section>
       <section>
         <div class="container">
-          <ul class="container__list">
+          <ul class="Cards">
             <li>
-              <div class="container__wrapper">
-                <svg class="container--antenna" widht="70" height="70">
+              <div class="Card">
+                <svg class="Card--antenna" widht="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="container__header">LOREM IPSUM</h3>
-              <p class="container__description">
+              <h3 class="Card__header">LOREM IPSUM</h3>
+              <p class="Card__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="container__wrapper">
+              <div class="Card">
                 <svg widht="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="container__header">LOREM IPSUM</h3>
-              <p class="container__description">
+              <h3 class="Card__header">LOREM IPSUM</h3>
+              <p class="Card__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="container__wrapper">
+              <div class="Card">
                 <svg widht="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="container__header">LOREM IPSUM</h3>
-              <p class="container__description">
+              <h3 class="Card__header">LOREM IPSUM</h3>
+              <p class="Card__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <div class="container__wrapper">
+              <div class="Card">
                 <svg widht="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="container__header">LOREM IPSUM</h3>
-              <p class="container__description">
+              <h3 class="Card__header">LOREM IPSUM</h3>
+              <p class="Card__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -190,13 +190,11 @@
 
       <section>
         <div class="container">
-          <h2 class="container__second-header">Czym się zajmujemy</h2>
-          <ul class="container__job-list">
-            <li class="container__job-item">
-              <div class="container__job-background">
-                <span class="container__job-description"
-                  >Aplikacje komputerowe</span
-                >
+          <h2 class="secondary__header">Czym się zajmujemy</h2>
+          <ul class="job-list">
+            <li class="job-list__item">
+              <div class="job-list__background">
+                <span class="job-list__description">Aplikacje komputerowe</span>
               </div>
               <img
                 src="./images/type.jpg"
@@ -206,11 +204,9 @@
               />
             </li>
 
-            <li class="container__job-item">
-              <div class="container__job-background">
-                <span class="container__job-description"
-                  >Aplikacje mobilne</span
-                >
+            <li class="job-list__item">
+              <div class="job-list__background">
+                <span class="job-list__description">Aplikacje mobilne</span>
               </div>
               <img
                 src="./images/phone.jpg"
@@ -219,11 +215,9 @@
                 height="294"
               />
             </li>
-            <li class="container__job-item">
-              <div class="container__job-background">
-                <span class="container__job-description"
-                  >Rozwiązania graficzne</span
-                >
+            <li class="job-list__item">
+              <div class="job-list__background">
+                <span class="job-list__description">Rozwiązania graficzne</span>
               </div>
               <img
                 src="./images/draw.jpg"
@@ -236,7 +230,7 @@
         </div>
       </section>
       <section class="workers__section">
-        <h2 class="container__second-header">Nasz zespół</h2>
+        <h2 class="secondary__header">Nasz zespół</h2>
         <ul class="workers__list">
           <li>
             <figure class="workers__figure">
@@ -250,7 +244,7 @@
                 <h4 class="workers__name">John Doe</h4>
                 <span class="workers__description">Product Designer</span>
               </figcaption>
-              <ul class="icon__list">
+              <ul class="social-links__list">
                 <li class="social-links__item">
                   <a class="social-links__icon" href="#"
                     ><svg class="icon" width="20" height="20">
@@ -294,7 +288,7 @@
                 <h4 class="workers__name">John Doe</h4>
                 <span class="workers__description">Frontend Developer</span>
               </figcaption>
-              <ul class="icon__list">
+              <ul class="social-links__list">
                 <li class="social-links__item">
                   <a class="social-links__icon" href="#"
                     ><svg class="icon" width="20" height="20">
@@ -338,7 +332,7 @@
                 <h4 class="workers__name">John Doe</h4>
                 <span class="workers__description">Marketing</span>
               </figcaption>
-              <ul class="icon__list">
+              <ul class="social-links__list">
                 <li class="social-links__item">
                   <a class="social-links__icon" href="#"
                     ><svg class="icon" width="20" height="20">
@@ -382,7 +376,7 @@
                 <h4 class="workers__name">John Doe</h4>
                 <span class="workers__description">UI Designer</span>
               </figcaption>
-              <ul class="icon__list">
+              <ul class="social-links__list">
                 <li class="social-links__item">
                   <a class="social-links__icon" href="#"
                     ><svg class="icon" width="20" height="20">
@@ -418,7 +412,7 @@
       </section>
       <section>
         <div class="container">
-          <h2 class="container__second-header">Nasi klienci</h2>
+          <h2 class="secondary__header">Nasi klienci</h2>
           <ul class="client__list">
             <li>
               <svg class="client__logo" width="106" height="60">

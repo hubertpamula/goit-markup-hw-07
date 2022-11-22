@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+}
+ul,
+h1 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+footer {
+  background-color: var(--footer-color);
+}

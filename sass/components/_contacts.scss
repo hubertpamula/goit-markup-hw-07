@@ -1,0 +1,23 @@
+.contacts {
+  gap: 30px;
+  :hover {
+    color: var(--blue-color);
+    stroke: var(--blue-color);
+  }
+  :focus {
+    color: var(--blue-color);
+    stroke: var(--blue-color);
+  }
+}
+.contacts__item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--description-color);
+  text-decoration: none;
+}
+.contacts__item--icon {
+  margin-right: 10px;
+}
